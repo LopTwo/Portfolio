@@ -14,10 +14,18 @@ label, input, textarea {
     background-color: #0275d8;
 } */
 
+html { 
+  background: url(./monumentV.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 body {
-    background-image: url(./monumentV.jpg);
-    background-size: 1500px;
+    /* background-image: url(./monumentV.jpg);
+    background-size: 1500px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
