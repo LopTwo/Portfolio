@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>Kieran's Portolio</title>
-        <link rel="stylesheet" href="style.css">
-        <script src='https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js'></script>
-        <script src='main.js'></script>
-    </head>
+<head>
+    <title>Kieran's Portolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway">
+    <script src='https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js'></script>
+    <script src='main.js'></script>
+</head>
 
-    <body>
-        <ul class="breadcrumb">
-            <li><a href = '#'>Home</a></li>
-            <li><a href = '#'>Portfolio</a></li>
-            <li><a href = '#'>Contact</a></li>
+<body>
+
+    <ul class="breadcrumb">
+        <li><a href='./Home.html'>Home</a></li>
+        <li><a href='./Portfolio.html'>Portfolio</a></li>
+        <li><a href='./Contact.html'>Contact</a></li>
+    </ul>
 
 
-        </ul>
-            
+    <!-- <h1>Contact me</h1> -->
+    <form class='form' action="https://formspree.io/LopTwo@gmail.com" method="POST">
 
-        <!-- <h1>Contact me</h1> -->
-        <form class='form' action="https://formspree.io/LopTwo@gmail.com" method="POST">
+        <label>
+            E-mail
+            <input type="email" name="email" class="email" />
+        </label>
 
-            <label>
-                E-mail
-                <input type="email" name="email" class="email"/>
-            </label>
+        <label>
+            Subject
+            <input type="text" name="subject" class="subject" />
+        </label>
 
-            <label>
-                Subject
-                    <input type="text" name="subject" class="subject"/>
-                </label>
+        <label>
+            Message
+            <textarea class='message'></textarea>
 
-            <label>
-                 Message
-                <textarea class ='message'></textarea>
+        </label>
+        <div class="status">
 
-             </label>
-             <div class="status">
-
-             </div>
-             <button type="submit" class = 'submit'>Send</button>
-        </form>
-    </body>
+        </div>
+        <button type="submit" class='submit'>Send</button>
+    </form>
+</body>
 
 </html>
