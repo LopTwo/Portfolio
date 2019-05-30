@@ -1,3 +1,11 @@
+.buttonBar {
+  /* border: 1px solid #ccc!important; */
+  /* display: inline-block; */
+  /* padding: 15px; */
+  /* box-sizing: inherit; */
+  text-align: center
+ }
+
 label, input, textarea {
     display: block;
 }
@@ -28,41 +36,21 @@ h1 {
 } */
 
 .selfie {
-  height: 627px;
-  width: 1280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 200px;
   border-radius: 10px;
-  transform: rotate(90deg);
-  float: left;
+  padding: 25px;
   }
 
-
-ul.breadcrumb {
-    padding: 10px 16px;
-    list-style: none;
-  }
-  ul.breadcrumb li {
-    display: inline;
-    font-size: 18px;
-  }
-  ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-  }
-  ul.breadcrumb li a {
-    /* color: #0275d8; */
-    text-decoration: none;
-  }
-  ul.breadcrumb li a:hover {
-    /* color: #01447e; */
-    text-decoration: underline;
-  }
-
-  .Jumbo {
+  .Jumbotron {
+    font-size: x-small;
     text-align: center;
     margin: 0 auto;
-    width: 250px;
-    padding: 200px;
+    width: auto;
+    padding: 30px;
   };
 
  
