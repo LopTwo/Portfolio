@@ -1,4 +1,22 @@
-/* bread crumb */
+.giphy-embed {
+  position: relative;
+  border: #01447e;
+  height: 200;
+  width: 200;
+  align-content: center;
+}
+
+ul.noBullet {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+/* bread crumb menu*/
 .breadStyle {
   text-align: right;
   margin-right: 2%;
@@ -19,7 +37,7 @@ body {
   position: relative;
 }
 
-
+/* gradient page transition */
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
@@ -89,12 +107,12 @@ h1 {
   padding: 25px;
   }
 
-  .Jumbotron {
-    text-align: center;
-    margin: 0 auto;
-    width: auto;
-    padding: 30px;
-  };
+.Jumbotron {
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
+  padding: 30px;
+};
 
   /* Style the list */
 ul.breadcrumb {
@@ -128,4 +146,3 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 
- 
