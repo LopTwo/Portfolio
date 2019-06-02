@@ -1,20 +1,16 @@
-.giphy-embed {
-  position: relative;
-  border: #01447e;
-  height: 200;
-  width: 200;
-  align-content: center;
-}
 
 ul.noBullet {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  padding: 0;
-  margin: 0;
-  
 }
 
+/* .site-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+} */
 
 /* bread crumb menu*/
 .breadStyle {
@@ -27,6 +23,7 @@ label, input, textarea {
 }
 
 body {
+  height: 100%;
   font-family: Raleway;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
