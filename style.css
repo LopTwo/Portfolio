@@ -16,6 +16,12 @@ body {
   background-attachment: fixed;
 }
 
+
+.gif_boi {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* bread crumb menu*/
 .breadStyle {
   text-align: right;
@@ -91,6 +97,7 @@ h1 {
   margin: 0 auto;
 }
 
+
 .selfie {
   display: block;
   margin-left: auto;
@@ -158,7 +165,7 @@ ul.breadcrumb li a:hover {
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: rgb(138, 129, 129);
 }
 
 .github {
